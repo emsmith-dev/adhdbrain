@@ -1,0 +1,127 @@
+#progress-section {
+    max-width: 400px;
+    margin: 0 auto 24px auto;
+}
+#progress-bar-container {
+    width: 100%;
+    background: #e5e7eb;
+    border-radius: 8px;
+    height: 18px;
+    margin-top: 6px;
+    overflow: hidden;
+}
+#progress-bar {
+    background: #4a90e2;
+    height: 100%;
+    width: 0%;
+    border-radius: 8px;
+    transition: width 0.3s;
+}
+#coin-reward {
+    font-size: 1.3rem;
+    color: #fbbf24;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+/* Completed checkbox styling */
+.completed-checkbox {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: #0a0095;
+    margin: 0 8px;
+}
+.completed-checkbox input[type="checkbox"] {
+    margin-right: 6px;
+}
+body {
+    background: #f5f7fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 700px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    padding: 32px 24px 24px 24px;
+}
+h1 {
+    text-align: center;
+    color: #0a0095;
+    font-size: 2rem;
+    font-style: oblique;
+    margin-bottom: 30px;
+}
+#todo-form {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+#todo-input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+#todo-form button {
+    background: #0a0095;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 16px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+#todo-form button:hover {
+    background: #357ab8;
+}
+#todo-list-incomplete, #todo-list-completed {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 16px 0;
+    min-height: 40px;
+}
+#todo-list-incomplete li, #todo-list-completed li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f0f4f8;
+    margin-bottom: 8px;
+    padding: 10px 12px;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: background 0.2s;
+}
+#todo-list-completed li {
+    text-decoration: line-through;
+    color: #aaa;
+    background: #e0e7ef;
+}
+.p-4 h2 {
+    text-align: center;
+    color: #0a0095;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.todo-actions button {
+    background: none;
+    border: none;
+    color: #e74c3c;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-left: 8px;
+}
+#motivator {
+    text-align: center;
+    color: #27ae60;
+    font-size: 1.1rem;
+    margin-top: 12px;
+    min-height: 24px;
+}
